@@ -4,7 +4,20 @@
 @import "footer";
 @import "banner";
 @import "cards";
+@import "header";
 
 body {
   background: white;
+  font-size: 18px;
+}
+
+.small-photo {
+  height: 100px;
+  margin: 20px;
+}
+
+.book-form {
+  background: $light-gray;
+  padding: 10px;
+  border: .5px solid white;
 }
